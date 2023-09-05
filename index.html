@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!---------icon-------------->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <title>My Portfolio</title>
+    <link rel="icon" href="images/logo.jpeg" type="img/gif/png" />
+  </head>
+  <body>
+    <section id="header">
+      <nav>
+        <a href="#header"
+          ><img src="images/logo.jpeg" id="logo" width="150px" />
+        </a>
+        <div class="navlink">
+          <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header-text">
+        <h1>Hi, I'm <span>Sravani</span> Student at SVECW <br />From India.</h1>
+      </div>
+    </section>
+    <!----------------------------------------About-------------------------------------->
+    <section id="about">
+      <div class="row">
+        <div class="col-1">
+          <img src="images/profile.jpeg" />
+          <div>
+            <p><span>Name:</span> Sravani Pothabathula</p>
+            <p><span>Email:</span> myemail@gmail.com</p>
+            <p><span>Contact:</span> (+91)9876543210</p>
+          </div>
+        </div>
+        <div class="col-2">
+          <h1>About me</h1>
+          <p>
+            I am Sravani, pursuing bachelor of technology at Shri Vishnu
+            Engineering College For Women, Bhimavaram in Information Technology
+            Stream. I have knowledge in C, Python, Java programming languages. I
+            would like to build my career where my skills, knowledge are
+            recognized..
+          </p>
+          <div class="details">
+            <div id="skill">
+              <h2>Skills</h2>
+              <hr />
+              <p>
+                <span>Web Developement</span><br />
+                Html-Intermediate <br />CSS-intermediate
+              </p>
+              <p>
+                <span>Programming Languages</span><br />
+                C-Intermediate <br />
+                Python-Competent <br />
+              </p>
+            </div>
+            <div id="academy">
+              <h2>Education</h2>
+              <hr />
+              <p>
+                <span>2021-25</span><br />
+                BTech From SVECW, Bhimavaram
+              </p>
+              <p>
+                <span>2019-21</span><br />
+                12th From Andhra Pradesh Board
+              </p>
+              <p>
+                <span>2018-19</span><br />
+                10th From Andhra Pradesh Board<br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="row">
+        <div class="contact-us">
+          <h1>Contact</h1>
+
+          <br />
+          <a
+            href="https://www.linkedin.com/in/sravani-pothabathula-72a599250//"
+            target="_blank"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#/"><i class="bi bi-instagram"></i></a>
+        </div>
+        <div class="data">
+          <form>
+            <input
+              name="name"
+              type="text"
+              placeholder="Your Name"
+              required
+            /><br />
+            <input
+              name="email"
+              type="email"
+              placeholder="Your Email"
+              required
+            /><br />
+            <textarea
+              name="message"
+              id="message"
+              rows="6"
+              placeholder="Your Message"
+            ></textarea>
+            <button type="submit">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
